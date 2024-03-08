@@ -1,0 +1,51 @@
+
+body{
+    height: 100%;
+    font-family: noto 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: pink;
+}
+.contact_form{
+    width: 400px;
+    height: auto;
+    margin: 80px  auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(228, 130, 207);
+    padding-left: 30 px;
+    
+}
+.titulo {
+    color: white;
+}
+.contenedor {
+   
+    
+    font-size: 25px;
+   
+
+}
+
+.nombretexto{
+    border-width: 4.5px;
+    width: 700x;
+    position: relative;
+   
+
+
+
+}
+
+.apellido{
+    border-width: 4.5px;
+    width: 200x;
+    font-size: 30px;
+    position: relative;
+   
+    flood-color:white;
+
+}
+
+.lista{
+    list-style-type: none;
+}

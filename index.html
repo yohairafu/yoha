@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    
+</head>
+<body>
+    <div class="contact_form">
+        <div class="formulario">
+            <h1>Formulario de Contacto</h1>
+    <div class="contendor">
+        <form action="contenedor">
+            <ul class="lista">
+                <li>
+                    <div class="nombretexto">
+                    <label type="text" for="nombre">Nombre <span font-color="red" ></label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="obligatorio">*</label>
+                </li>
+                <li>
+                    <div class="aphellido">
+                    <label for="apellido">Apellido </label>
+                    <input type="text" name="apellido" id="apellido"required>
+                    <label for="obligatorio">*</label>
+                </li>
+                <li>
+                    <label for="lang">Pais</label>
+                    <select name="pais" id="pais">
+                    <option value="España">España</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Colombia">Colomnia</option>
+                    <option value="Honduras">Honduras</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Francia">Francia</option>
+                    <option value="Alemania">Alemania</option>
+                    </select>
+                </li>
+                </ul>
+                <label>Agrega la fecha:</label>
+                    <input type="date" id="date"/>
+                  
+
+                <p>
+              
+                  Selecciona tus alergias:<br>
+                 <input type="checkbox" name="gluten"> gluten<br>
+                 <input type="checkbox" name="lacteos"> lacteos<br>
+                 <input type="checkbox" name="fruto seco"> frutos secos<br>
+                 <input type="checkbox" name="otro"> otro<br>
+                </p>
+                
+                  sexo:<br>
+                  <input type="radio" name="sexo" value="menosde1000"> mujer<br>
+                  <input type="radio" name="sexo" value="de1000a5000"> hombre<br>
+                  <input type="radio" name="sexo" value="masde5000"> otro
+              
+                </p>  
+                <input type="checkbox" name="aceptarenviardatos"> aceptar enviar mi informacion<br>
+              </form>
+            <label for="campos obligatorio">Campos obligatorio *</label>
+            <input type="submit" value="Enviar" />
+        </form>
+
+        
+    </div>
+</body>
+</html>
